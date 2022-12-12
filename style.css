@@ -61,3 +61,20 @@
   .universe, .home , .exploration {
     color: white;
   }
+
+  .home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 17.2rem auto;
+    gap: 2.4rem;
+  }
+
+  .universe, .exploration {
+    display: flex;
+    flex-direction: column;
+    max-width: 64.8rem;
+    margin-top: 10rem;
+    margin-left: 10rem;
+    gap: 2rem;
+  }
