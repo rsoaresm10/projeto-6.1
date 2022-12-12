@@ -1,0 +1,63 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  :root {
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif; 
+    --ff-primary: 'Roboto', sans-serif;
+    --fc-heading: #e1e1e6;
+  }
+  
+  body {
+    font-size: 1.6rem;
+  
+    min-height: 100vh;
+    object-fit: cover;
+  
+    margin: auto;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 3.2rem;
+  
+    padding: 4rem 0 4rem 7.4rem;
+  }
+  
+  nav a {
+    text-decoration: none;
+  
+    height: 2.2rem;
+    font-size: 2.4rem;
+    font-weight: normal;
+  
+    font-family: var(--ff-primary);
+    color: white;
+  }
+  
+  nav a:hover {
+    font-weight: bold;
+    opacity: 1;
+    color: aqua;
+  }
+
+
+  .image {
+    position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100%;
+  object-fit: cover;
+  }
+
+  .universe, .home , .exploration {
+    color: white;
+  }
