@@ -58,9 +58,7 @@
   object-fit: cover;
   }
 
-  .universe, .home , .exploration {
-    color: white;
-  }
+  
 
   .home {
     display: flex;
@@ -68,6 +66,24 @@
     align-items: center;
     margin: 17.2rem auto;
     gap: 2.4rem;
+
+  }
+
+  .home h1 {
+    color: var(--fc-heading);
+    font-family: 'Roboto', sans-serif;
+font-weight: 700;
+font-size: 4rem;
+  }
+
+  .home button {
+    border: 2px solid ;
+background-color: transparent;
+color: white;
+padding: 1.2rem 3.2rem;
+  }
+  .home button:hover {
+    color: aqua;
   }
 
   .universe, .exploration {
@@ -77,4 +93,34 @@
     margin-top: 10rem;
     margin-left: 10rem;
     gap: 2rem;
+    color: var(--fc-heading);
+    font-family: 'Roboto', sans-serif;
+
+  }
+
+
+  .universe h1 {
+    font-weight: 700;
+    font-size: 5rem;
+  }
+
+
+   .error {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+  
+    margin-top: 6.3rem;
+    margin-left: 10.2rem;
+  
+    max-width: 64.8rem;
+  }
+  
+  .error h1 {
+    font-family: var(--ff-primary);
+    color: var(--fc-heading);
+    font-weight: 700;
+  
+    font-size: 4.8rem;
+    line-height: 6rem;
   }
