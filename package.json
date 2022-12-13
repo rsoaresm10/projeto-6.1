@@ -1,0 +1,23 @@
+{
+  "name": "projeto-6.1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rsoaresm10/projeto-6.1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rsoaresm10/projeto-6.1/issues"
+  },
+  "homepage": "https://github.com/rsoaresm10/projeto-6.1#readme",
+  "dependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
